@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+inhibit_all_warnings!
+
+xcodeproj 'Ayoo'
+
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'React', :subspecs => ['Core', 'RCTImage', 'RCTText', 'RCTWebSocket'], :path => '../node_modules/react-native'
+pod 'react-native-fbsdkcore', :path => '../node_modules/react-native-fbsdkcore'
+pod 'react-native-fbsdklogin', :path => '../node_modules/react-native-fbsdklogin'
+

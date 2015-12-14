@@ -1,0 +1,15 @@
+{
+  "name": "Ayoo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "facebook-node-sdk": "^0.2.0",
+    "react-native": "^0.16.0",
+    "react-native-cookies": "0.0.3",
+    "react-native-fbsdkcore": "0.0.7",
+    "react-native-fbsdklogin": "0.0.7"
+  }
+}
